@@ -28,5 +28,5 @@ hab svc load gscho/gs-rest-service
 
 This will load the app. To test it out there are two endpoints:
 
-- localhost:8080/greetings
-- localhost:8080/actuator/health
+- `http://localhost:8080/greetings`
+- `http://localhost:8080/actuator/health`
