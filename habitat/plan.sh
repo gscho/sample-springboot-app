@@ -1,4 +1,4 @@
-pkg_name=gs-rest-service
+pkg_name=sample-springboot-app
 pkg_origin=gscho
 pkg_version="0.1.0"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
@@ -11,7 +11,7 @@ do_build(){
 }
 
 do_install(){
-  cp "target/gs-rest-service-$pkg_version.jar" "$pkg_prefix/"
-  chmod +x "$pkg_prefix/gs-rest-service-$pkg_version.jar"
+  cp "target/sample-springboot-app-$pkg_version.jar" "$pkg_prefix/"
+  chmod +x "$pkg_prefix/sample-springboot-app-$pkg_version.jar"
 }
 
